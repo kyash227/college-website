@@ -1,0 +1,190 @@
+html,body{
+ padding: 0;
+ margin: 0;
+ font-family: 'Open Sans', sans-serif;
+}
+nav{
+    width: 100%;
+    color: #fcba03;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.a{
+    margin: 0;
+    text-align: center;
+    padding: 12px 15px 12px 15px;
+    background: #fcba03;
+    color: white;
+    display: block;
+    text-decoration: none;
+}
+.mainMenu>li{
+    display: inline-block;
+    margin-left: 2px;
+}
+li:hover>a{
+    background: #7575a3;
+    cursor: pointer;
+    color: white;
+}
+.subMenu{
+    position: absolute;
+    display: none;
+}
+.subMenu li{
+    border-top: 0px solid #abb1ba;
+    border-bottom: 0px solid #6B727C;
+    position: relative;
+}
+.mainMenu>li:hover .subMenu{
+    display: block;
+}
+.SuperSubMenu{
+    position: absolute;
+    top: 0;
+    right: 0;
+    -ms-transform: translate(100%,0);
+    -webkit-transform: translate(100%,0);
+    transform:translate(100%,0);
+    display: none;
+}
+.subMenu li:hover>.SuperSubMenu{
+    display: block;
+}
+nav .arrow{
+    display: inline-block;
+    border: 2px solid white;
+    width: 8px;
+    height: 8px;
+    border-left: none;
+    border-bottom: none;
+    position: relative;
+    right: 0;
+    margin-left: 10px;
+}
+nav .arrow.arrowDown{
+    transform: rotateZ(135deg) translate(0px,3px);
+}
+nav .arrow.arrowRight{
+    transform: rotateZ(45deg);
+}
+.b:link {
+  color: #cc0000;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.b:visited {
+  color: #cc0000;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.b:hover {
+  color: #e6005c;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.b:active {
+  color: #00cc00;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+
+/* New clases */
+.banner {
+    background-color: #66a3ff;
+    width: 100vw;
+    padding: 1rem 0.25rem;
+    text-align: center;
+}
+
+.banner a {
+    font-size: 1.25rem;
+}
+.banner__img {
+    width: 100%;
+    height: auto;
+}
+.banner__img img {
+    width: 100%;
+    height: auto;
+}
+.hero-banner {
+    width: 100%;
+    height: auto;
+}
+.hero-banner img {
+    width: 100%;
+    height: auto;
+}
+.about-logos{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+.about{
+    padding: 2rem;
+    max-width: 90%;
+    margin: 0 auto;
+
+}
+.about-content{
+    text-align: center;
+
+}
+.about-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    width: 50%;
+    margin: 0 auto;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+    
+.about-text {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    
+}
+.about-title h2 {
+    text-align: center;
+    
+}
+.about-title-hr{
+    width: 50%;
+    height: 2px;
+    background-color: #720444;
+    margin-bottom: 1rem;
+    margin: 0 auto;
+
+}
+
+
+.about-logos__wrapper{
+    flex: 0 1 auto;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.logos-img{
+    width: 120px;
+    height: auto;
+}
+.logos-img img{
+    width: 100%;
+    height: auto;
+}
+
+.logos-info{}
+.logos-info-txt{
+
+}
